@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Register</title>
+</head>
+
+<body>
+
+  <input type="text" id="username" placeholder="Username" />
+  <br />
+  <input type="number" id="age" placeholder="Current Age" />
+  <br />
+
+  <input type="password" id="pword1" placeholder="Password" />
+  <br />
+
+  <input type="password" id="pword2" placeholder="confirm password" />
+  <br />
+
+  <input type="email" id="email1" placeholder="Email" />
+  <br />
+  <input type="email" id="email2" placeholder="confirm email" />
+  <br />
+  <input type="radio" name="gender" value="male"> Male<br />
+  <input type="radio" name="gender" value="female"> Female<br />
+  <input type="radio" name="gender" value="other"> Other<br />
+
+  <input type="button" id="submitbttn" value="Submit">
+
+  <div id="feedback">
+  </div>
+
+  <select id="regtester">
+    <option value="unchosen">Chose an option</option>
+    <option value="correct">All correct</option>
+    <option value="pword_mismatch">Pword Mismatch</option>
+    <option value="pword_short">Pword too short</option>
+    <option value="uname_short">Uname too short</option>
+    <option value="not_at">No @</option>
+    <option value="not_dot">No dot</option>
+    <option value="email_mismatch">Email mismatch</option>
+    <option value="too_young">Too young</option>
+    <option value="too_old">Too old</option>
+    <option value="no_gend">Unchosen gender</option>
+</body>
+<script src="script.js">
+
+</script>
+
+</html>
